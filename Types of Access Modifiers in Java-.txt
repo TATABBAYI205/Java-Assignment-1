@@ -1,0 +1,51 @@
+Types of Access Modifiers in Java:-
+===================================
+There are four types of access modifiers available in Java: 
+-> Public 
+-> Private
+-> Protected
+-> Default
+
+Public Access modifier:
+======================
+The public access modifier is specified using the keyword public. 
+The public access modifier has the widest scope among all other access modifiers.
+Classes, methods, or data members that are declared as public are accessible from everywhere in the program. 
+There is no restriction on the scope of public data members.
+
+Private Access Modifier:
+=======================
+The private access modifier is specified using the keyword private. The methods or data members declared as private are accessible only within the class in which they are declared.Any other class of the same package will not be able to access these members.
+Top-level classes or interfaces can not be declared as private becauseprivate means “only visible within the enclosing class”.
+protected means “only visible within the enclosing class and any subclasses”
+
+Protected Access Modifier:
+=========================
+The protected access modifier is specified using the keyword protected.
+The methods or data members declared as protected are accessible within the same package or subclasses in different packages.
+
+Default Access Modifier:
+=======================
+When no access modifier is specified for a class, method, or data member – It is said to be having the default access modifier by default. The data members, classes, or methods that are not declared using any access modifiers i.e. having default access modifiers are accessible only within the same package.
+
+
+
+
+
+______________________________________________________________________________________________
+                    |    Public      |     Protected   |      Default     |     Private      |
+____________________|_______________ |_________________|__________________|__________________|
+Same class          |     Yes        |      Yes        |       Yes        |      Yes         |
+____________________|________________|_________________|__________________|__________________|
+Same package        |     Yes        |      Yes        |       Yes        |      No          |
+subclass            |                |                 |                  |                  |      
+____________________|________________|_________________|__________________|__________________|
+Same package        |     Yes        |      Yes        |       Yes        |      No          | 
+Non-sub class       |                |                 |                  |                  |
+____________________|________________|_________________|__________________|__________________|
+Different package   |     Yes        |      Yes        |       No         |      No          |  
+sub class           |                |                 |                  |                  | 
+____________________|________________|_________________|__________________|__________________|
+Different package   |     Yes        |      No         |       No         |      No          |
+Non-sub class       |                |                 |                  |                  |  
+___________________ |________________|_________________|__________________|__________________|

@@ -1,0 +1,19 @@
+Compiler in java:-
+=================
+->  The Java Virtual Machine (JVM), the term "compiler" refers to the component responsible for translating Java source code into a platform-independent bytecode format that can be executed by the JVM. The JVM includes a built-in Java compiler called the "Java Compiler" or "javac," which is responsible for compiling Java source code (.java files) into bytecode (.class files).
+-> When you write Java code, you typically save it in a text file with a .java extension. The Java compiler reads this source file, performs lexical and syntactic analysis, and generates bytecode instructions that represent the program's logic and behavior. These bytecode instructions are stored in a .class file, which can be executed by the JVM.
+
+The JVM's compiler performs several important tasks during the compilation process, including:
+
+-> Lexical Analysis: The compiler scans the source code, breaking it down into individual tokens (keywords, identifiers, literals, etc.).
+
+-> Syntactic Analysis: The compiler checks the arrangement of tokens to ensure they form valid expressions, statements, and declarations 
+   according to the rules of the Java language.
+
+-> Semantic Analysis: The compiler performs type checking and enforces language rules to ensure that the code is semantically correct.
+
+-> Code Generation: The compiler translates the validated code into JVM bytecode, which consists of low-level instructions that can be 
+executed by the JVM.
+
+-> Once the bytecode is generated, it can be executed on any platform that has a compatible JVM installed. The JVM's runtime environment is   
+   responsible for interpreting or just-in-time (JIT) compiling the bytecode into machine code that can be executed by the underlying hardware.

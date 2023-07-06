@@ -1,0 +1,18 @@
+Variables in Java:-
+==================
+There are three types of variables in Java are mentioned below:
+
+-> Local Variables
+-> Instance Variables
+-> Static Variables
+
+Local Variables: These variables are declared within a method, constructor, or a block of code and are only accessible within that scope. 
+                 They must be initialized before they are used.
+
+Instance Variables (Non-Static Variables): These variables are declared within a class but outside any method, constructor, or block. 
+                   Each instance of the class has its own copy of instance variables. They are initialized with default values if not 
+                   explicitly assigned.
+
+Static Variables (Class Variables): These variables are declared with the "static" keyword and belong to the class rather than instances
+                  of the class. They are shared among all instances of the class. Static variables are initialized with default values if 
+                  not explicitly assigned.

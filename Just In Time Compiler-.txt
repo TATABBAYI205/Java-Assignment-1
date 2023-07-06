@@ -1,0 +1,11 @@
+Just In Time Compiler:-
+======================
+-> The JIT or Just-In-Time compiler is an essential part of the JRE (Java Runtime Environment), 
+   that is responsible for performance optimization of java based applications during run time. 
+-> In order to improve performance, JIT compilers interact with the Java Virtual Machine (JVM) 
+   at run time and compile suitable bytecode sequences into native machine code. 
+-> While using a JIT compiler, the hardware is able to execute the native code, as compared to 
+   having the JVM interpret the same sequence of bytecode repeatedly and incurring overhead for 
+   the translation process. 
+-> This subsequently leads to performance gains in the execution speed, unless the compiled 
+   methods are executed less frequently. 

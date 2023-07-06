@@ -1,0 +1,21 @@
+              Compiler:-                                          | Intrepeter:-
+__________________________________________________________________|_____________________________________________________                                                      
+Process:      -> Translates entire source code into machine       | -> Analyzes and executes source code line by line 
+                 code or bytecode before execution.               |    or statement by statement.
+__________________________________________________________________|__________________________________________________________
+Translation:  -> Performs compilation to generate an executable   | -> Translates and executes the code on-the-fly during 
+                 file (bytecode) that can be run directly.        |    runtime without generating a separate executable.
+__________________________________________________________________|___________________________________________________________
+Performance:  -> Generally faster execution due to optimized      | -> Typically slower execution as code is analyzed and 
+                 machine code or bytecode.                        |    executed during runtime.
+__________________________________________________________________|_________________________________________________________________
+Portability:  -> Compiled code may be platform-specific and       | -> Interpreted code is usually more portable, running on 
+                 require recompilation for different platforms.	  |    any platform with a compatible interpreter.
+__________________________________________________________________|__________________________________________________________________
+Debuggin:     -> Error messages are often generated during the    | -> Immediate feedback during runtime with specific error messages, 
+                 compilation process. Debugging compiled code     |    aiding debugging at the statement level.        
+                 often involves using debuggers on the executable.|
+__________________________________________________________________|_____________________________________________________________________	
+Examples:     -> Java source code compiled into bytecode with the | -> Java source code executed using the Java Virtual Machine (JVM) 
+                 javac compiler.	                          |    interpreter.
+__________________________________________________________________|_______________________________________________________________________

@@ -1,0 +1,25 @@
+JDK (Java Development Kit):-
+=========================
+-> JDK is a software development kit that provides tools and libraries necessary for developing Java applications.
+-> It includes the Java compiler (javac) to compile Java source code into bytecode, the Java Runtime Environment (JRE), 
+   and various development tools like debuggers, profilers, and documentation.
+-> JDK is primarily used by Java developers for writing, compiling, and packaging Java applications.
+-> It is required if you want to develop Java applications.
+
+JRE (Java Runtime Environment):-
+==============================
+-> JRE is an environment that provides the necessary runtime support for executing Java applications.
+-> It includes the Java Virtual Machine (JVM) and the core Java class libraries required for running Java programs.
+-> JRE does not contain development tools such as compilers and debuggers, as its main purpose is to run already compiled 
+   Java applications.
+-> JRE is needed if you want to run Java applications on your system.
+
+JVM (Java Virtual Machine):-
+==========================
+-> JVM is a virtual machine that executes Java bytecode. It is a crucial part of the Java platform's architecture.
+-> When you compile Java source code, it is transformed into platform-independent bytecode, which can be executed by any JVM.
+-> JVM is responsible for loading and executing bytecode, performing memory management (garbage collection), handling exceptions, 
+   and providing runtime environment for Java applications.
+-> JVM implementations exist for different operating systems, allowing Java programs to run on diverse platforms without needing 
+   recompilation.
+-> JVM is part of both the JDK and JRE.
